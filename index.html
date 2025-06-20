@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zido</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+  <aside class="sidebar">
+  <div class="logo"><span>Z</span> zido</div>
+  <nav>
+    <a class="nav-link active">🏠 Home - a musicway</a>
+  </nav>
+
+  <div class="artist-section">
+    <h4 class="artist-heading">Discover Distinguished Artistry & Iconic Discographies </h4>
+    <div class="artist-list">
+      <div class="artist-card">
+        <img src="Images/taylor.jpeg" alt="Taylor Swift" />
+        <p>Taylor Swift</p>
+      </div>
+      <div class="artist-card">
+        <img src="Images/sab.jpg" alt="Sabrina Carpenter" />
+        <p>Sabrina Carpenter</p>
+      </div>
+      <div class="artist-card">
+        <img src="Images/billie.jpeg" alt="Billie Eilish" />
+        <p>Billie Eilish</p>
+      </div>
+      <div class="artist-card">
+        <img src="Images/gracie.jpeg" alt="Gracie Abrams" />
+        <p>Gracie Abrams</p>
+      </div>
+      <div class="artist-card">
+        <img src="Images/lanaa.jpg" alt="Lana Del Rey" />
+        <p>Lana Del Rey</p>
+      </div>
+      <div class="artist-card">
+        <img src="Images/tate.jpeg" alt="Tate McRae " />
+        <p>Tate McRae</p>
+      </div>
+    </div>
+  </div>
+</aside>
+
+    <main class="main">
+      <div class="top-section">
+        <img src="Images/sohighschool.jpg" alt="Album Cover" id="album-cover" class="cover-art" />
+        <div class="song-info">
+          <h2 id="song-title">So High School</h2>
+          <p id="artist-name">Taylor Swift</p>
+          <input type="range" id="progress" value="0" />
+          <div class="controls">
+            <span id="current-time">0:00</span>
+            <button id="prevBtn">⏮️</button>
+            <button id="playBtn">▶️</button>
+            <button id="nextBtn">⏭️</button>
+            <span id="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular-section">
+        <h3>🎵YOUR  PLAYLIST (❤️feel the music, hit the era)</h3>
+        <ul class="song-list">
+          <li class="song-item" data-index="0">
+            <span>1</span> So High School <em>- Taylor Swift</em><span class="time">3:54</span>
+          </li>
+          <li class="song-item" data-index="1">
+            <span>2</span> Espresso <em>- Sabrina Carpenter</em><span class="time">2:54</span>
+          </li>
+          <li class="song-item" data-index="2">
+            <span>3</span> I Love You, I'm Sorry <em>- Gracie Abrams</em><span class="time">2:40</span>
+          </li>
+          <li class="song-item" data-index="3">
+            <span>4</span> Birds Of A Feather <em>- Billie Eilish</em><span class="time">3:30</span>
+          </li>
+          <li class="song-item" data-index="4">
+            <span>5</span> Brooklyn Baby <em>- Lana Del Rey</em><span class="time">5:47</span>
+          </li>
+          <li class="song-item" data-index="5">
+            <span>6</span> Greedy <em>- Tate McRae</em><span class="time">2:11</span>
+          </li>
+          <li class="song-item" data-index="6">
+            <span>7</span> Bloodline <em>- Ariana Grande</em><span class="time">3:31</span>
+          </li>
+          <li class="song-item" data-index="7">
+            <span>8</span> The Heart Wants What It Wants <em>- Selena Gomez</em><span class="time">3:47</span>
+          </li>
+          <li class="song-item" data-index="8">
+            <span>9</span> Cool For The Summer <em>- Demi Lovato</em><span class="time">3:37</span>
+          </li>
+          <li class="song-item" data-index="9">
+            <span>10</span>Diamonds <em>- Rihanna</em><span class="time">3:42</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
